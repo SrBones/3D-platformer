@@ -40,7 +40,7 @@ public class MovingSphere : MonoBehaviour
 		velocity.z =
 			Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
         
-        Vector3 displacement = velocity * Time.deltaTime;   
+        Vector3 displacement = velocity * Time.deltaTime;
 		transform.localPosition += displacement;
 
 
@@ -53,13 +53,13 @@ public class MovingSphere : MonoBehaviour
     private void FixedUpdate()
     {
         Jump();
-            isGrounded = Physics.CheckSphere(groundCheckerOrigin.position, distanceToGround, groundLayer);
+        isGrounded = Physics.CheckSphere(groundCheckerOrigin.position, distanceToGround, groundLayer);
 
-            if(isGrounded == true && hasHitJump == true)
-            {
-                rBody.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
-                hasHitJump = false;
-            }
+        if(isGrounded == true && hasHitJump == true)
+        {
+            rBody.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+            hasHitJump = false;
+        }
     }
 
     private void Jump()

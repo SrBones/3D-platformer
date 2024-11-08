@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 10f;
-    public float rotateSpeed = 75f;
     public float jumpVelocity = 5f;
     public float distanceToGround = 0.1f;
     public float health = 3;
@@ -27,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         verticalInput = Input.GetAxis("Vertical") * moveSpeed;
-        horizontalInput = Input.GetAxis("Horizontal") * rotateSpeed;
+        horizontalInput = Input.GetAxis("Horizontal") * moveSpeed;
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
