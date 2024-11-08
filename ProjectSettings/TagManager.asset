@@ -7,6 +7,7 @@ TagManager:
   - Pickup
   - Furniture
   - Ground
+  - InvisibleWall
   layers:
   - Default
   - TransparentFX

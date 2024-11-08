@@ -54,14 +54,7 @@ public class PlayerMovement : MonoBehaviour
             rBody.MoveRotation(rBody.rotation * angleRototation);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.transform.tag == "Pickup")
-        {
-            Destroy(other.gameObject);
-            health -= 1;
-        }
-    }
+  
 
     private void Movement()
     {
