@@ -364,7 +364,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 65
+  controlID: 101
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 30
+  controlID: 18
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -484,8 +484,8 @@ MonoBehaviour:
     y: 0
     width: 364.79993
     height: 756.4
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -540,9 +540,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
 =======
     height: 388
+<<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> 7f35607 (dolls)
+=======
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> 3e02c7e (text and light fixes)
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -828,9 +833,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff48610000
+      m_SelectedIDs: 4e6100005efaffff
+      m_LastClickedID: -1442
+      m_ExpandedIDs: 1afbffffe061000062620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1040,6 +1045,7 @@ MonoBehaviour:
     m_LastClickedID: 9136
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000002e69000030690000326900003469000036690000386900003a6900003c6900003e69000040690000426900004469000046690000486900004a6900004c6900004e69000050690000526900005469000056690000586900005a6900005c690000
 >>>>>>> 8d8f3d4 (Cutscene and Start Menu)
 =======
@@ -1048,6 +1054,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000126500001465000016650000186500001a6500001c6500001e65000020650000226500002465000026650000286500002a6500002c6500002e65000030650000326500003465000036650000386500003a6500003c6500003e65000040650000426500004465000046650000486500004a6500004c6500004e65000050650000
 >>>>>>> 7f35607 (dolls)
+=======
+    m_ExpandedIDs: 000000003a6500003c6500003e65000040650000426500004465000046650000486500004a6500004c6500004e65000050650000526500005465000056650000586500005a6500005c6500005e65000060650000626500006465000066650000686500006a6500006c6500006e6500007065000072650000746500007665000078650000
+>>>>>>> 3e02c7e (text and light fixes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1084,9 +1093,10 @@ MonoBehaviour:
 >>>>>>> e0814fe (animation)
 =======
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 222.59998}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_ExpandedIDs: ffffffff000000002e69000030690000326900003469000036690000386900003a6900003c6900003e69000040690000426900004469000046690000486900004a6900004c6900004e69000050690000526900005469000056690000586900005a6900005c6900000e6a00006c6a0000
@@ -1097,6 +1107,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: ffffffff00000000126500001465000016650000186500001a6500001c6500001e65000020650000226500002465000026650000286500002a6500002c6500002e65000030650000326500003465000036650000386500003a6500003c6500004065000046650000486500004a6500004e650000ec6500000a6600001266000018660000
 >>>>>>> 7f35607 (dolls)
+=======
+    m_ExpandedIDs: ffffffff000000003a6500003c6500003e65000040650000426500004465000046650000486500004a6500004c6500004e65000050650000526500005465000056650000586500005a6500005c6500005e65000060650000626500006465000066650000686500006a6500006c6500006e6500007065000072650000746500007665000078650000
+>>>>>>> 3e02c7e (text and light fixes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1697,6 +1710,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -57.64239, y: 22.060476, z: 401.9786}
     speed: 2
     m_Value: {x: -57.64239, y: 22.060476, z: 401.9786}
@@ -1720,6 +1734,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 3.9822133, y: -3.225338, z: 8.070576}
 >>>>>>> 7f35607 (dolls)
+=======
+    m_Target: {x: -5.2291274, y: 11.723246, z: -42.98913}
+    speed: 2
+    m_Value: {x: -5.2291274, y: 11.723246, z: -42.98913}
+>>>>>>> 3e02c7e (text and light fixes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1769,6 +1788,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.02826142, y: 0.11518425, z: 0.0032285016, w: -0.9929332}
     speed: 2
     m_Value: {x: 0.02826152, y: 0.11518466, z: 0.0032285133, w: -0.9929368}
@@ -1793,11 +1813,15 @@ MonoBehaviour:
 =======
     m_Target: {x: 0.09633146, y: 0.04895066, z: -0.0047435625, w: 0.99413586}
 >>>>>>> 7f35607 (dolls)
+=======
+    m_Target: {x: 0.2315665, y: 0.08509583, z: -0.020323332, w: 0.96889555}
+>>>>>>> 3e02c7e (text and light fixes)
     speed: 2
-    m_Value: {x: 0.09752417, y: 0.048944827, z: -0.0048022913, w: 0.99401736}
+    m_Value: {x: 0.23153777, y: 0.08625688, z: -0.020600822, w: 0.9687753}
   m_Size:
-    m_Target: 15.57856
+    m_Target: 11.141209
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 742.5267
@@ -1808,13 +1832,16 @@ MonoBehaviour:
 =======
     m_Value: 16.312628
 >>>>>>> 7f35607 (dolls)
+=======
+    m_Value: 10.661444
+>>>>>>> 3e02c7e (text and light fixes)
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 1.8806001
-    m_SpeedNormalized: 0.94000006
+    m_Speed: 1.7015003
+    m_SpeedNormalized: 0.85000014
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
