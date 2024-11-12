@@ -14,7 +14,7 @@ namespace KinematicCharacterController.Examples
 
         [Header("Distance")]
         public float DefaultDistance = 6f;
-        public float MinDistance = 6f;
+        public float MinDistance = 0f;
         public float MaxDistance = 10f;
         public float DistanceMovementSpeed = 5f;
         public float DistanceMovementSharpness = 10f;
@@ -23,12 +23,12 @@ namespace KinematicCharacterController.Examples
         public bool InvertX = false;
         public bool InvertY = false;
         [Range(-90f, 90f)]
-        public float DefaultVerticalAngle = 40f;
+        public float DefaultVerticalAngle = 20f;
         [Range(-90f, 90f)]
-        public float MinVerticalAngle = 40f;
+        public float MinVerticalAngle = -90f;
         [Range(-90f, 90f)]
-        public float MaxVerticalAngle = 40f;
-        public float RotationSpeed = 0f;
+        public float MaxVerticalAngle = 90f;
+        public float RotationSpeed = 1f;
         public float RotationSharpness = 10000f;
         public bool RotateWithPhysicsMover = false;
 

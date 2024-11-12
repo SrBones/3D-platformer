@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using KinematicCharacterController;
@@ -45,20 +45,20 @@ namespace KinematicCharacterController.Examples
         public KinematicCharacterMotor Motor;
 
         [Header("Stable Movement")]
-        public float MaxStableMoveSpeed = 5f;
-        public float StableMovementSharpness = 10f;
+        public float MaxStableMoveSpeed = 10f;
+        public float StableMovementSharpness = 15f;
         public float OrientationSharpness = 10f;
         public OrientationMethod OrientationMethod = OrientationMethod.TowardsCamera;
 
         [Header("Air Movement")]
-        public float MaxAirMoveSpeed = 5f;
-        public float AirAccelerationSpeed = 100f;
+        public float MaxAirMoveSpeed = 15f;
+        public float AirAccelerationSpeed = 15f;
         public float Drag = 0.1f;
 
         [Header("Jumping")]
         public bool AllowJumpingWhenSliding = false;
         public float JumpUpSpeed = 10f;
-        public float JumpScalableForwardSpeed = 0.1f;
+        public float JumpScalableForwardSpeed = 10f;
         public float JumpPreGroundingGraceTime = 0f;
         public float JumpPostGroundingGraceTime = 0f;
 
