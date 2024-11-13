@@ -9,6 +9,12 @@ public class MainMenu : MonoBehaviour
 
     private int levelToLoad;
 
+    void UnlockMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void PlayGame()
     {
         FadeToNextLevel();
